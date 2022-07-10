@@ -1,0 +1,31 @@
+Comandos básicos GIT
+
+-> Usados no terminal
+
+ls - comando para listar
+cd - comando de navegação
+mkdir - comando de criação de diretório(pasta)
+echo > - comando para criação de arquivo
+rm -rf comando para deletar
+
+-----
+
+Links úteis 
+
+Dowloand Git - https://git-scm.com/
+Acesso Github - https://github.com/
+
+
+-----
+
+Comandos mais utilizados durante desenvolvimento
+
+git add * - para adicionar o todo conteúdo
+git commit - m "...comentario..." - comitar adicionando um comentário
+git status - monitoramento de status do arquivo
+mv (arquivo.md) ./ (pasta a ser movida)/ - comando para movimentar arquivo
+git remote add origin (URL github) - comando para adicionar o repositório
+git remote -v - lista as urls registradas
+git push origin master/main (depende de como foi criado o repositorio) - comando para sincronizar entre local e remoto
+git pull origin master/main - Puxa o arquivo para o local
+git clone (URL) - clona um repositório do remoto para o local
